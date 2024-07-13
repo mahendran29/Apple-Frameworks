@@ -11,6 +11,7 @@ struct FrameworkDetailView: View {
     
     var frameWork: Framework
     @Binding var isShowingDetailView: Bool
+    @State private var isShowingSafariView = false
     
     var body: some View {
         
@@ -38,13 +39,16 @@ struct FrameworkDetailView: View {
             Spacer()
             
             Button {
-                 print("Learn more tapped")
+                isShowingSafariView = true
             } label: {
                 MoreButton(title: "Learn more", textColor: .white, backgroundColor: .red)
                     .padding(.top, 60)
             }
         }
         .padding()
+        .sheet(isPresented: $isShowingSafariView, content: {
+            SafariView(url: URL(string: frameWork.urlString)!)
+        })
     }
 }
 

@@ -14,6 +14,7 @@
 		BF11B8732C40EEA0002EC36F /* FrameworkGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF11B8722C40EEA0002EC36F /* FrameworkGridView.swift */; };
 		BF11B8752C40FF08002EC36F /* FrameworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF11B8742C40FF08002EC36F /* FrameworkDetailView.swift */; };
 		BF11B8772C4105AF002EC36F /* FrameworkDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF11B8762C4105AF002EC36F /* FrameworkDetailViewModel.swift */; };
+		BF11B8792C413023002EC36F /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF11B8782C413023002EC36F /* SafariView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		BF11B8722C40EEA0002EC36F /* FrameworkGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridView.swift; sourceTree = "<group>"; };
 		BF11B8742C40FF08002EC36F /* FrameworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailView.swift; sourceTree = "<group>"; };
 		BF11B8762C4105AF002EC36F /* FrameworkDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailViewModel.swift; sourceTree = "<group>"; };
+		BF11B8782C413023002EC36F /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				BF11B8662C40ED88002EC36F /* Preview Content */,
 				BF11B8742C40FF08002EC36F /* FrameworkDetailView.swift */,
 				BF11B8762C4105AF002EC36F /* FrameworkDetailViewModel.swift */,
+				BF11B8782C413023002EC36F /* SafariView.swift */,
 			);
 			path = "Apple-Frameworks";
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 				BF11B8752C40FF08002EC36F /* FrameworkDetailView.swift in Sources */,
 				BF11B8732C40EEA0002EC36F /* FrameworkGridView.swift in Sources */,
 				BF11B8712C40EDB3002EC36F /* Framework.swift in Sources */,
+				BF11B8792C413023002EC36F /* SafariView.swift in Sources */,
 				BF11B8612C40ED87002EC36F /* Apple_FrameworksApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
